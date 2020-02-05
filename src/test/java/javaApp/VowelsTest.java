@@ -8,5 +8,6 @@ public class VowelsTest {
 	public void test() {
 		String output = DisplayVowels.dispVowels("vowels");
 		assertEquals("OE", output);
+		System.out.println("Hi");
 	}
 }
